@@ -1,0 +1,74 @@
+body {
+    background-image: url("/gambar/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+.login {
+    width: 400px;
+    padding-top: 20px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.login-header {
+    background: white;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: center;
+}
+.login-container {
+    background: #ebebeb;
+    padding: 10px;
+}
+
+.login p {
+    padding: 10px;
+}
+.login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+.login input[id="name"],
+.login input[id="username"],
+.login input[id="password"],
+.login input[id="angkatan"]
+.login input[id="akun"]{
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[id="name"]:focus,
+.login input[id="username"]:focus,
+.login input[id="password"]:focus
+.login input[id="akun"]{
+    border-color: #888;
+}
+.login input[type="button"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.login input[type="button"]:hover {
+    background: #17c;
+}
+/* Buttons' focus effect */
+.login input[type="button"]:focus {
+    border-color: #05a;
+}
